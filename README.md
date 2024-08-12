@@ -2,9 +2,7 @@
 
 A Mathematica toy model of Git.
 
-## How to use
-
-### Install
+## Install
 
 Install from this repository:
 
@@ -12,26 +10,36 @@ Install from this repository:
 
 2. install the paclet:
 
+    ``` wl
+    PacletInstall@File["the/path/of/paclet"]
     ```
-    PacletInstall@File["the/path/of/paclet"];
+
+Install manually:
+
+1. download this repository;
+
+2. move it to the paclet directory:
+
+    ``` wl
+    $UserBasePacletsDirectory
     ```
 
-Load the package(s):
+## Load
 
-```
-Needs["Yurie`Sync`"];
-```
-
-### Upgrade
-
-```
-PacletInstall["Yurie/Sync"];
+``` wl
+Needs["Yurie`Sync`"]
 ```
 
-### Uninstall
+## Upgrade
 
-```
-PacletUninstall["Yurie/Sync"];
+``` wl
+PacletInstall["Yurie/Sync"]
 ```
 
-### Documentation
+## Uninstall
+
+``` wl
+PacletUninstall["Yurie/Sync"]
+```
+
+## Documentation
