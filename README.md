@@ -2,6 +2,8 @@
 
 A Mathematica toy model of Git.
 
+## Documentation
+
 ## Install
 
 Install from this repository:
@@ -41,5 +43,3 @@ PacletInstall["Yurie/Sync"]
 ``` wl
 PacletUninstall["Yurie/Sync"]
 ```
-
-## Documentation
